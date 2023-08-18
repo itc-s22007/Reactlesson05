@@ -109,7 +109,7 @@
   height: 100vh; /* 画面の高さいっぱいに設定 */
   padding-left: 250px;
   padding-right: 250px;
-
+}
 .container {
   align-items: center;
   text-align: center;
