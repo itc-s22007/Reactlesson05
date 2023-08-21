@@ -63,13 +63,13 @@ export default function Tolk({ selectedPerson }) {
               className={`${styles.optionButton}`}
               onClick={() => handleOptionChange('option1')}
             >
-              選択肢1
+              選択肢1:もちろん！ご一緒させてください！
             </button>
             <button
               className={`${styles.optionButton}`}
               onClick={() => handleOptionChange('option2')}
             >
-              選択肢２
+              選択肢２:今日予定があるので、、
             </button>
           </>
         )}
@@ -80,13 +80,13 @@ export default function Tolk({ selectedPerson }) {
               className={`${styles.optionButton}`}
               onClick={() => handleOptionChange('option3')}
             >
-              選択肢3
+              選択肢3:ちょっと自分トイレ行ってきます！
             </button>
             <button
               className={`${styles.optionButton}`}
               onClick={() => handleOptionChange('option4')}
             >
-              選択肢4
+              選択肢4:（財布をかばんから出そうとする）一人いくらぐらいですかね？
             </button>
           </>
         )}
@@ -96,13 +96,13 @@ export default function Tolk({ selectedPerson }) {
               className={`${styles.optionButton}`}
               onClick={() => handleOptionChange('option7')}
             >
-              選択肢7
+              選択肢7:今日はありがとうございました！また明日も頑張りましょう！
             </button>
             <button
               className={`${styles.optionButton}`}
               onClick={() => handleOptionChange('option8')}
             >
-              選択肢8
+              選択肢8:またおごってください！
             </button>
 
           </>
