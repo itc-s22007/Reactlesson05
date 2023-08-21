@@ -1,5 +1,14 @@
 import Link from 'next/link'
 import styles from '../styles/result.module.css';
+import Question from '../components/Question';
+
+const questions = [
+  {
+    question: 'あなたの好きな季節は？',
+    options: ['春', '夏', '秋', '冬'],
+  },
+  // 他の質問も同様に定義
+];
 
 export default function Person() {
   return (
