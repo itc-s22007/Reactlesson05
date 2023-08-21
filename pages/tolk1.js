@@ -8,7 +8,7 @@ export default function Tolk({ selectedPerson }) {
   const handleOptionChange = (option) => {
     setSelectedOption(option);
   };
-
+/*
   const optionScores = {
     option1: 20,
     option2: 20,
@@ -53,7 +53,7 @@ export default function Tolk({ selectedPerson }) {
   };
   setScore(score + optionScores[option]);
 };
-
+*/
   return (
     <div className={styles.container}>
       <div className={styles.options}>
