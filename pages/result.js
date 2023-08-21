@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from '../styles/result.module.css';
-import Question from '../components/Question';
 
 const questions = [
   {
@@ -39,4 +38,3 @@ export default function Person() {
     </div>
   );
 }
-
