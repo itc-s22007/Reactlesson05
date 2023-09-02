@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/tolk.module.css';
+import Link from 'next/link'
 
 export default function Tolk({ selectedPerson }) {
   const [selectedOption, setSelectedOption] = useState('');
@@ -139,21 +140,24 @@ export default function Tolk({ selectedPerson }) {
             </button>
           </>
         )}
-
         {selectedOption === 'option15' && (
           <>
-            <button
-              className={`${styles.optionButton}`}
-              onClick={() => handleOptionChange('option19')}
-            >
-              選択肢19
-            </button>
-            <button
-              className={`${styles.optionButton}`}
-              onClick={() => handleOptionChange('option20')}
-            >
-              選択肢20
-            </button>
+	    <Link href="/result">
+              <button
+                className={`${styles.optionButton}`}
+                onClick={() => handleOptionChange('option19')}
+              >
+                選択肢19
+              </button>
+	    </Link>
+	    <Link href="/result">
+              <button
+                className={`${styles.optionButton}`}
+                onClick={() => handleOptionChange('option20')}
+              >
+                選択肢20
+              </button>
+	    </Link>
           </>
         )}
         {selectedOption === 'option9' && (
@@ -190,18 +194,22 @@ export default function Tolk({ selectedPerson }) {
         )}
         {selectedOption === 'option17' && (
           <>
-            <button
-              className={`${styles.optionButton}`}
-              onClick={() => handleOptionChange('option25')}
-            >
-              選択肢25
-            </button>
-            <button
-              className={`${styles.optionButton}`}
-              onClick={() => handleOptionChange('option26')}
-            >
-              選択肢26
-            </button>
+	    <Link href="/result">
+              <button
+                className={`${styles.optionButton}`}
+                onClick={() => handleOptionChange('option25')}
+              >
+                選択肢25
+              </button>
+	    </Link>
+	    <Link href="/result">
+              <button
+                className={`${styles.optionButton}`}
+                onClick={() => handleOptionChange('option26')}
+              >
+                選択肢26
+              </button>
+  	    </Link>
           </>
         )}
         {selectedOption === 'option25' && (
