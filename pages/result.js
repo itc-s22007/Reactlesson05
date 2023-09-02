@@ -32,7 +32,7 @@ export default function Person() {
           <button className={`${styles.button} ${styles.button01}`}>もう一度</button>
         </Link>
 	<Link href="/person">  
-        <button className={`${styles.button} ${styles.button02}`}>メニューに戻る</button>
+          <button className={`${styles.button} ${styles.button02}`}>メニューに戻る</button>
 	</Link>  
       </div>
     </div>
